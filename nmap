@@ -1,0 +1,16 @@
+#扫描网段存活IP
+[root@db2 ~]# nmap -sP 192.168.132.0/24             
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2021-07-20 08:29 CST
+Nmap scan report for 192.168.132.1
+Host is up (0.00032s latency).
+MAC Address: 00:50:56:C0:00:08 (VMware)
+Nmap scan report for 192.168.132.2
+Host is up (0.000042s latency).
+MAC Address: 00:50:56:F0:8F:E3 (VMware)
+Nmap scan report for 192.168.132.254
+Host is up (-0.10s latency).
+MAC Address: 00:50:56:F4:DC:A5 (VMware)
+Nmap scan report for 192.168.132.157
+Host is up.
+Nmap done: 256 IP addresses (4 hosts up) scanned in 2.14 seconds
